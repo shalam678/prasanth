@@ -2,6 +2,8 @@
 <html>
 
 <head>
+	<meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
 h1   {color: blue;}
@@ -13,6 +15,9 @@ h1   {color: blue;}
 	<center>
 		<?php
 
+        header('Cache-Control: no-cache, no-store, must-revalidate');
+         header('Pragma: no-cache');
+         header('Expires: 0');
 		// servername => localhost
 		// username => root
 		// password => empty
