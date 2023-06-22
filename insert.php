@@ -1,23 +1,20 @@
+<?php
+header('Cache-Control: no-cache, no-store, must-revalidate');
+header('Pragma: no-cache');
+header('Expires: 0');
+header('X-Content-Type-Options: nosniff');
+?>
 <!DOCTYPE html>
 <html>
-
 <head>
-	<meta charset="utf-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 h1   {color: blue;}
 </style>
 </head>
-
-
 <body>
 	<center>
 		<?php
-
-        header('Cache-Control: no-cache, no-store, must-revalidate');
-         header('Pragma: no-cache');
-         header('Expires: 0');
 		// servername => localhost
 		// username => root
 		// password => empty
